@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+.main{
+  max-width: 1400px;
+  margin: auto;
+}
+
+header{
+  background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./Bakgrunn.png);
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+}
+
+
+ul{
+  float: right;
+  margin-top: 28px;
+  margin-right: 8px;
+}
+
+ul li{
+  display: inline-block;
+}
+
+ul li a{
+  text-decoration: none;
+  padding: 5px 20px;
+  border: 1px solid transparent;
+  transition: 0.5s ease;
+  color: white;
+}
+
+ul li.aktiv a{
+  background-color: lightgrey;
+  color: black;
+}
+
+ul li a:hover{
+  background-color: lightgrey;
+  color: black;
+}
+
+.title{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  float: left;
+  transform: translate(-50%, -50%);
+
+}
+.title h1{
+  color: white;
+  font-size: 65px;
+
+}
+.title h2{
+  color: white;
+  font-size: 65px;
+  margin-left: 90px;
+}
+
+.logo img{
+  float: left;
+  width: 135px;
+  height: 140px;
+  margin-top: 28px;
+}
+
+.knapp{
+  position: absolute;
+  top: 63%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.knapper{
+  text-decoration: none;
+  color: white;
+  transition: 0.5s ease;
+  padding: 11px 29px;
+  border: 1px solid white;
+  transition: 0.5s ease;
+}
+
+.knapper:hover{
+  background-color: lightgrey;
+  color: black;
+}
+
+.nedeos{
+  padding: 5vw;
+  float: left;
+  padding-top: 49vh;
+  padding-bottom: 49vh;
+}
+.nedeos h1{
+  font-size: 3vw;
+}
+
+.nedetekst{
+  font-size: 25px;
+  padding: 10vw;
+  padding-top: 48vh;
+  padding-bottom: 41vh;
+}
